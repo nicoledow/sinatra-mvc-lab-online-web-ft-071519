@@ -4,7 +4,7 @@ class PigLatinizer
     words = string.split(" ")
     pig_latin = ""
     vowels = "aeiouAEIOU"
-    two_letter_consonant_clusters = ["sm", "Sm","st", "St", "gl", "Gl", "pl", "Pl", "tr", "Tr", "fl", "Fl", "th", "Th", "pr", "Pr", "sh", "Sh"]
+    two_letter_consonant_clusters = ["sm", "Sm","st", "gl", "Gl", "pl", "Pl", "tr", "Tr", "fl", "Fl", "th", "Th", "pr", "Pr", "sh", "Sh"]
     three_letter_consonant_clusters = ["str", "Str", "Spr", "spr"]
     
     words.each do |word|

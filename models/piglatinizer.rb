@@ -26,7 +26,7 @@ class PigLatinizer
         pig_latin += piglatinize_regular_word(word)
       end
     end
-    #don't return first element - is a space
+    #don't return first element - it is a space
       pig_latin[1..-1]
   end
   
